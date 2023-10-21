@@ -1,0 +1,112 @@
+main{
+    .galeria{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr  ;
+        grid-template-areas: 
+        "principal-gal"
+        "principal-fotos"
+        "principal-videos";
+        .principal-gal{
+            grid-area: principal-gal;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .titulo-gal{
+                height: 40px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    height: 40px;
+                    width: 60px;
+                    font-size: 20px;
+                    color: rgba(23, 37, 117, 0.3);
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .principal-fotos{
+            width: 100%;
+            height: 400px;
+            grid-area: principal-fotos;
+            .contenido-fotos{
+                height: 400px;
+                width: 100%;
+                padding-left: 50px;
+                padding-right: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                .titulo-fotos{
+                    height: 30px;
+                    h2{
+                        font-size: 20px;
+                        color: #8a540f;
+                    }
+                }
+            }
+        }
+        .principal-videos{
+            height: 350px;
+            width: 100%;
+            grid-area: principal-videos;
+            .contenido-videos{
+                height: 350px;
+                width: 100%;
+                display: inline-flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                .titulo-videos{
+                    height: 30px;
+                    h2{
+                        font-size: 20px;
+                        color: #8a540f;
+                    }   
+                }
+                .videos{
+                    grid-area: fotos;
+                    height: 250px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    .video-uno{
+                        height: 210px;
+                        width: 250px;
+                        iframe{
+                            height: 210px;
+                            width: 250px;
+                        }
+                    }
+                    .video-dos{
+                        height: 210px;
+                        width: 250px;
+                        iframe{
+                            height: 210px;
+                            width: 250px;
+                        }
+                    }
+                    .video-tres{
+                        height: 210px;
+                        width: 250px;
+                        iframe{
+                            height: 210px;
+                            width: 250px;
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}

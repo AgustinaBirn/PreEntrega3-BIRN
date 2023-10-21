@@ -1,0 +1,154 @@
+main{
+    .main__contenido-sb{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "presentacion"
+        "entrevistas";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        .section-sob-uno{
+            height: 400px;
+            width: 100%;
+            grid-area: presentacion;
+            display: grid;
+            grid-template-areas: 
+            "video texto-presentacion";
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            justify-content: space-between;
+            align-items: center;
+            .video-sob{
+                grid-area: video;
+                height: 100%;
+                width: 100%;
+                @extend %flex-center;
+                iframe{
+                    height: 250px;
+                    width: 400px;
+                }
+            }
+            .contenido-sob{
+                grid-area: texto-presentacion;
+                height: 300px;
+                width: 500px;
+                @extend %flex-center;
+                flex-direction: column;
+                text-align: center;
+                .titulo-sob{
+                    height: 50px;
+                    width: 500px;
+                    @extend %flex-center;
+                    h1{
+                        height: 40px;
+                        width: 500px;
+                        font-size: 20px;
+                        color: rgba(23, 37, 117, 0.3);
+                        @extend %flex-center;
+                        text-align: center;
+                    }
+                }
+                .parrafo-sob{
+                    height: 230px;
+                    width: 500px;
+                    @extend %flex-center;
+                    flex-direction: column;
+                    .p-1{
+                        height: 160px;
+                        width: 450px;
+                        font-size: 20px;
+                        color: rgba(23, 33, 90, 0.8);
+                        @extend %flex-center;
+                        text-align: center;
+                    }
+                    .p-2{
+                        height: 70px;
+                        width: 450px;
+                        font-size: 20px;
+                        color: rgba(23, 33, 90, 0.8);
+                        @extend %flex-center;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .section-sob-dos{
+            height: 300px;
+            width: 100%;
+            grid-area: entrevistas;
+            display: grid;
+            grid-template-areas: 
+            "titulo-entrevistas"
+            "link-entrevistas";
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-color: rgba(53, 79, 153, 0.1);
+            .titulo-ent-sob{
+                height: 100px;
+                width: 100%;
+                grid-area: titulo-entrevistas;
+                @extend %flex-center;
+                h2{
+                    height: 100px;
+                    width: 100%;
+                    @extend %flex-center;
+                }
+            }
+            .entrevistas{
+                height: 100%px;
+                width: 100%;
+                grid-area: link-entrevistas;
+                display: grid;
+                grid-template-areas: 
+                "ent-1 ent-2 ent-3 ent-4 ent-5";
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                .entrevistas__cadena3{
+                    height: 100%;
+                    width: 100%;
+                    grid-area: ent-1;
+                    @extend %flex-center;
+                    @extend .estilo-entrevistas;
+                }
+                .entrevistas__canal-doce{
+                    height: 100%;
+                    width: 100%;
+                    grid-area: ent-2;
+                    @extend %flex-center;
+                    @extend .estilo-entrevistas;
+                }
+                .entrevistas__la-voz{
+                    height: 100%;
+                    width: 100%;
+                    grid-area: ent-3;
+                    @extend %flex-center;
+                    @extend .estilo-entrevistas;
+                }
+                .entrevistas__infobae{
+                    height: 100%;
+                    width: 100%;
+                    grid-area: ent-4;
+                    @extend %flex-center;
+                    @extend .estilo-entrevistas;
+                }
+                .entrevistas__showsport{
+                    height: 100%;
+                    width: 100%;
+                    grid-area: ent-5;
+                    @extend %flex-center;
+                    @extend .estilo-entrevistas;
+                }
+            }
+        }
+    }
+}
+
+
+
+  

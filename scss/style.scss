@@ -1,0 +1,20 @@
+@import 'utilities/variables';
+@import 'utilities/maps';
+@import 'utilities/mixin';
+@import 'utilities/extend';
+@import'utilities/condicional';
+@import 'utilities/for'; 
+@import 'base/generales';
+@import 'layout/header';
+@import 'layout/main';
+@import 'views/index';
+@import 'views/proximos-viajes';
+@import 'views/proximos-viajes2';
+@import 'views/galeria';
+@import 'views/sobre-mi';
+@import 'views/contacto';
+@import 'layout/footer';
+@import 'quaries'; /* crearlas y revisar si van al principio o final*/ 
+
+
+

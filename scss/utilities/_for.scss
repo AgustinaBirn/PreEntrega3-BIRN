@@ -1,0 +1,13 @@
+@for $i from 1 through 4{
+    .estilo-itinerarios{
+        .boton-pv{
+            &:nth-child(#{$i}){
+                background-image: url('../imagenes/#{$i}.jpg');
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    
+    }
+}

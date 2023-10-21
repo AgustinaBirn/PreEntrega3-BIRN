@@ -1,0 +1,15 @@
+.contenido-fotos{
+    height: 1050px;
+    .album{
+        @extend %flex-center;
+        height: 200px;
+        width: 200px;
+        background-color: map-get($colores, header);
+        margin: 5px;
+        padding:10px;
+        -webkit-border-radius: 100px;
+        -moz-border-radius: 100px;
+        border-radius: 100px;
+    }
+}
+

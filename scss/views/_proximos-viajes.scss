@@ -1,0 +1,48 @@
+main{
+   article{
+    width: 800px;
+    @extend %flex-center;
+        .main_article-pv{
+           height: 1500px;
+           width: 100%;
+           @include flex(flex, column, center, center);
+           .titulos{
+               height: 50px;
+               width: 100%;
+               @extend %flex-center;
+               margin-top: 30px;
+               h1{
+                   height: 40px;
+                   color: #7C9070;
+                   font-size: 30px;
+               }
+           }
+           .itinerarios{
+               height: 1400px;
+               width: 100%;
+               @include flex(flex, column, space-around, center);
+               margin-block-end: 30px;
+               .viajes{
+               grid-area: everest;
+               height: 400px;
+               @extend .estilo-itinerarios;
+               }
+               .viajes{
+               grid-area: kilimanjaro;    
+               @extend %viajes;
+               @extend .estilo-itinerarios;
+               }
+               .viajes{
+               grid-area: aconcagua;    
+               @extend %viajes;
+               @extend .estilo-itinerarios;
+               }
+               .viajes{
+               grid-area: machu-pichu;  
+               @extend %viajes;
+               @extend .estilo-itinerarios;
+               }
+           }
+       }
+   }
+}

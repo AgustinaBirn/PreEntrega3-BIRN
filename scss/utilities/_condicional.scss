@@ -1,0 +1,16 @@
+$color-fondo: light;
+@if $color-fondo == dark{
+    body{
+        background-color: #3c3c58;
+    }
+} @else if $color-fondo == light{
+    body{
+        background-color: #f3e1a681;
+    }
+}@else{
+    body{
+        background-color: #f8f8d481;
+    }
+}
+
+/*definir conndicional para las quaries o no, porque deberia tener una condicion para que se cumpla*/

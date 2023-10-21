@@ -1,0 +1,713 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3, main .main__contenido-sb .section-sob-dos .titulo-ent-sob h2, main .main__contenido-sb .section-sob-dos .titulo-ent-sob, main .main__contenido-sb .section-sob-uno .contenido-sob .parrafo-sob .p-2, main .main__contenido-sb .section-sob-uno .contenido-sob .parrafo-sob .p-1, main .main__contenido-sb .section-sob-uno .contenido-sob .parrafo-sob, main .main__contenido-sb .section-sob-uno .contenido-sob .titulo-sob h1, main .main__contenido-sb .section-sob-uno .contenido-sob .titulo-sob, main .main__contenido-sb .section-sob-uno .contenido-sob, main .main__contenido-sb .section-sob-uno .video-sob, .contenido-fotos .album, main article .main_article-pv .titulos, main article, .article-index .viajes-destacados .botones .boton, .article-index .viajes-destacados .titulo-v-destacados, .article-index .bienvenida .index-imagen-texto .index-imagen-texto-parrafo .index-imagen-texto-parrafo p, .article-index .bienvenida .index-imagen-texto .index-imagen-texto-titulo, .article-index .bienvenida .index-imagen, main, header nav .area-dos, header nav .area-uno .form-buscador, .estilo-entrevistas .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .texto-entrevista, .estilo-entrevistas .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .boton-ent-sob, .estilo-entrevistas, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3, .estilo-itinerarios .boton-pv, main article .main_article-pv .itinerarios .viajes .boton-pv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main article .main_article-pv .itinerarios .viajes {
+  height: 400px;
+  width: 350px;
+}
+
+.color-fondo {
+  background-color: rgba(183, 187, 238, 0.6509803922);
+}
+
+.estilo-itinerarios, main article .main_article-pv .itinerarios .viajes {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.estilo-itinerarios .boton-pv, main article .main_article-pv .itinerarios .viajes .boton-pv {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(182, 156, 117);
+  margin: 5px;
+  padding: 10px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+}
+.estilo-itinerarios .boton-pv a, main article .main_article-pv .itinerarios .viajes .boton-pv a {
+  color: aliceblue;
+}
+.estilo-itinerarios h2, main article .main_article-pv .itinerarios .viajes h2 {
+  color: #80461d;
+}
+.estilo-itinerarios p, main article .main_article-pv .itinerarios .viajes p {
+  text-align: justify;
+}
+
+.estilo-entrevistas, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3 {
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+}
+.estilo-entrevistas .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .boton-ent-sob, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .boton-ent-sob {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(182, 156, 117);
+  margin: 5px;
+  padding: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 100px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+}
+.estilo-entrevistas .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .texto-entrevista, main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .texto-entrevista {
+  height: 100px;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(243, 225, 166, 0.5058823529);
+}
+
+/*definir conndicional para las quaries o no, porque deberia tener una condicion para que se cumpla*/
+.estilo-itinerarios .boton-pv:nth-child(1), main article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(1) {
+  background-image: url("../imagenes/1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.estilo-itinerarios .boton-pv:nth-child(2), main article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(2) {
+  background-image: url("../imagenes/2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.estilo-itinerarios .boton-pv:nth-child(3), main article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(3) {
+  background-image: url("../imagenes/3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.estilo-itinerarios .boton-pv:nth-child(4), main article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(4) {
+  background-image: url("../imagenes/4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "nav" "header" "main" "footer";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  /*background: linear-gradient(to left/45deg, rgba(231, 135, 9, 0.767),rgba(139, 110, 14, 0.918))
+  background-image: radial-gradient(red,yellow)*/
+}
+
+header {
+  grid-area: header;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+header nav {
+  grid-area: nav;
+  background-color: #F97B22;
+  width: 100%;
+  height: 80px;
+  display: grid;
+  grid-template-areas: "area-uno area-dos";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+header nav .area-uno {
+  height: 80px;
+  grid-area: area-uno;
+  justify-content: space-between;
+  display: grid;
+  grid-template-areas: "logo buscador";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr fr;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+header nav .area-uno .logo {
+  width: 160px;
+  height: 80px;
+  margin: 10px;
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+}
+header nav .area-uno .form-buscador {
+  grid-area: buscador;
+  height: 80px;
+}
+header nav .area-uno .form-buscador form {
+  width: 240px;
+}
+header nav .area-uno .form-buscador form .form-buscador-b {
+  width: 240px;
+}
+header nav .area-dos {
+  height: 80px;
+  grid-area: area-dos;
+  justify-items: end;
+}
+header nav .area-dos ul {
+  height: 100%;
+  width: 530px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+header nav .area-dos ul .nav-items {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items: center;
+}
+header nav .area-dos ul .nav-items div li a {
+  height: 100%;
+  color: aliceblue;
+  text-decoration: none;
+}
+header nav .area-dos ul .nav-items div li a:hover {
+  color: #80461d;
+  text-decoration: underline;
+}
+
+main {
+  grid-area: main;
+  height: 100%;
+  width: 100%;
+}
+
+.article-index {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "bienvenida" "viajes-destacados";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.article-index .bienvenida {
+  grid-area: bienvenida;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-areas: "index-imagen index-imagen-texto";
+  grid-template-rows: 1fr;
+  grid-template-columns: fr 1fr;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(238, 248, 238, 0.637);
+}
+.article-index .bienvenida .index-imagen {
+  grid-area: index-imagen;
+  width: 500px;
+}
+.article-index .bienvenida .index-imagen-texto {
+  grid-area: index-imagen-texto;
+  width: 500px;
+  height: 200px;
+  background-color: rgba(254, 232, 176, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-style: solid;
+  border-color: rgba(128, 70, 29, 0.32);
+  border-radius: 10px;
+}
+.article-index .bienvenida .index-imagen-texto .index-imagen-texto-parrafo {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.article-index .viajes-destacados {
+  grid-area: viajes-destacados;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.article-index .viajes-destacados .botones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.article-index .viajes-destacados .botones .boton {
+  width: 100px;
+  height: 100px;
+  background-color: #9CA777;
+  margin: 5px;
+  padding: 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+}
+
+main article {
+  width: 800px;
+}
+main article .main_article-pv {
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main article .main_article-pv .titulos {
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+main article .main_article-pv .titulos h1 {
+  height: 40px;
+  color: #7C9070;
+  font-size: 30px;
+}
+main article .main_article-pv .itinerarios {
+  height: 1400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-block-end: 30px;
+}
+main article .main_article-pv .itinerarios .viajes {
+  grid-area: everest;
+  height: 400px;
+}
+main article .main_article-pv .itinerarios .viajes {
+  grid-area: kilimanjaro;
+}
+main article .main_article-pv .itinerarios .viajes {
+  grid-area: aconcagua;
+}
+main article .main_article-pv .itinerarios .viajes {
+  grid-area: machu-pichu;
+}
+
+.contenido-fotos {
+  height: 1050px;
+}
+.contenido-fotos .album {
+  height: 200px;
+  width: 200px;
+  background-color: #F97B22;
+  margin: 5px;
+  padding: 10px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
+
+main .galeria {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "principal-gal" "principal-fotos" "principal-videos";
+}
+main .galeria .principal-gal {
+  grid-area: principal-gal;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main .galeria .principal-gal .titulo-gal {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .galeria .principal-gal .titulo-gal h1 {
+  height: 40px;
+  width: 60px;
+  font-size: 20px;
+  color: rgba(23, 37, 117, 0.3);
+  justify-content: center;
+  align-items: center;
+}
+main .galeria .principal-fotos {
+  width: 100%;
+  height: 400px;
+  grid-area: principal-fotos;
+}
+main .galeria .principal-fotos .contenido-fotos {
+  height: 400px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+main .galeria .principal-fotos .contenido-fotos .titulo-fotos {
+  height: 30px;
+}
+main .galeria .principal-fotos .contenido-fotos .titulo-fotos h2 {
+  font-size: 20px;
+  color: #8a540f;
+}
+main .galeria .principal-videos {
+  height: 350px;
+  width: 100%;
+  grid-area: principal-videos;
+}
+main .galeria .principal-videos .contenido-videos {
+  height: 350px;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+main .galeria .principal-videos .contenido-videos .titulo-videos {
+  height: 30px;
+}
+main .galeria .principal-videos .contenido-videos .titulo-videos h2 {
+  font-size: 20px;
+  color: #8a540f;
+}
+main .galeria .principal-videos .contenido-videos .videos {
+  grid-area: fotos;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .galeria .principal-videos .contenido-videos .videos .video-uno {
+  height: 210px;
+  width: 250px;
+}
+main .galeria .principal-videos .contenido-videos .videos .video-uno iframe {
+  height: 210px;
+  width: 250px;
+}
+main .galeria .principal-videos .contenido-videos .videos .video-dos {
+  height: 210px;
+  width: 250px;
+}
+main .galeria .principal-videos .contenido-videos .videos .video-dos iframe {
+  height: 210px;
+  width: 250px;
+}
+main .galeria .principal-videos .contenido-videos .videos .video-tres {
+  height: 210px;
+  width: 250px;
+}
+main .galeria .principal-videos .contenido-videos .videos .video-tres iframe {
+  height: 210px;
+  width: 250px;
+}
+
+main .main__contenido-sb {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "presentacion" "entrevistas";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+main .main__contenido-sb .section-sob-uno {
+  height: 400px;
+  width: 100%;
+  grid-area: presentacion;
+  display: grid;
+  grid-template-areas: "video texto-presentacion";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+main .main__contenido-sb .section-sob-uno .video-sob {
+  grid-area: video;
+  height: 100%;
+  width: 100%;
+}
+main .main__contenido-sb .section-sob-uno .video-sob iframe {
+  height: 250px;
+  width: 400px;
+}
+main .main__contenido-sb .section-sob-uno .contenido-sob {
+  grid-area: texto-presentacion;
+  height: 300px;
+  width: 500px;
+  flex-direction: column;
+  text-align: center;
+}
+main .main__contenido-sb .section-sob-uno .contenido-sob .titulo-sob {
+  height: 50px;
+  width: 500px;
+}
+main .main__contenido-sb .section-sob-uno .contenido-sob .titulo-sob h1 {
+  height: 40px;
+  width: 500px;
+  font-size: 20px;
+  color: rgba(23, 37, 117, 0.3);
+  text-align: center;
+}
+main .main__contenido-sb .section-sob-uno .contenido-sob .parrafo-sob {
+  height: 230px;
+  width: 500px;
+  flex-direction: column;
+}
+main .main__contenido-sb .section-sob-uno .contenido-sob .parrafo-sob .p-1 {
+  height: 160px;
+  width: 450px;
+  font-size: 20px;
+  color: rgba(23, 33, 90, 0.8);
+  text-align: center;
+}
+main .main__contenido-sb .section-sob-uno .contenido-sob .parrafo-sob .p-2 {
+  height: 70px;
+  width: 450px;
+  font-size: 20px;
+  color: rgba(23, 33, 90, 0.8);
+  text-align: center;
+}
+main .main__contenido-sb .section-sob-dos {
+  height: 300px;
+  width: 100%;
+  grid-area: entrevistas;
+  display: grid;
+  grid-template-areas: "titulo-entrevistas" "link-entrevistas";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgba(53, 79, 153, 0.1);
+}
+main .main__contenido-sb .section-sob-dos .titulo-ent-sob {
+  height: 100px;
+  width: 100%;
+  grid-area: titulo-entrevistas;
+}
+main .main__contenido-sb .section-sob-dos .titulo-ent-sob h2 {
+  height: 100px;
+  width: 100%;
+}
+main .main__contenido-sb .section-sob-dos .entrevistas {
+  height: 100% px;
+  width: 100%;
+  grid-area: link-entrevistas;
+  display: grid;
+  grid-template-areas: "ent-1 ent-2 ent-3 ent-4 ent-5";
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__cadena3 {
+  height: 100%;
+  width: 100%;
+  grid-area: ent-1;
+}
+main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__canal-doce {
+  height: 100%;
+  width: 100%;
+  grid-area: ent-2;
+}
+main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__la-voz {
+  height: 100%;
+  width: 100%;
+  grid-area: ent-3;
+}
+main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__infobae {
+  height: 100%;
+  width: 100%;
+  grid-area: ent-4;
+}
+main .main__contenido-sb .section-sob-dos .entrevistas .entrevistas__showsport {
+  height: 100%;
+  width: 100%;
+  grid-area: ent-5;
+}
+
+main .section-contacto {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "titulo-contacto" "medios-contacto";
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+main .section-contacto .titulo-contacto {
+  height: 100px;
+  width: 100%;
+  grid-area: titulo-contacto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 170, 119, 0.3);
+}
+main .section-contacto .titulo-contacto h1 {
+  height: 50px;
+  width: 150px;
+}
+main .section-contacto .medios-contacto {
+  height: 550px;
+  width: 100%;
+  grid-area: medios-contacto;
+  display: grid;
+  grid-template-areas: "contacto-personal contacto-redes";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(138, 84, 15, 0.1);
+}
+main .section-contacto .medios-contacto .link-cont-personal {
+  height: 400px;
+  width: 100%;
+  grid-area: contacto-personal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(32, 38, 121, 0.1);
+}
+main .section-contacto .medios-contacto .link-cont-personal .titulo-personal {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(224, 170, 119, 0.3);
+}
+main .section-contacto .medios-contacto .link-cont-personal .titulo-personal h2 {
+  font-size: 15px;
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(224, 170, 119, 0.3);
+}
+main .section-contacto .medios-contacto .link-cont-personal .link-cont-pers-b {
+  height: 180px;
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+main .section-contacto .medios-contacto .link-redes-sociales {
+  height: 400px;
+  width: 100%;
+  grid-area: contacto-redes;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgba(32, 38, 121, 0.1);
+}
+main .section-contacto .medios-contacto .link-redes-sociales ul {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+main .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+main .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss .titulo-rrss {
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(224, 170, 119, 0.3);
+}
+main .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss .titulo-rrss h2 {
+  font-size: 15px;
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(224, 170, 119, 0.3);
+}
+
+footer {
+  height: 35px;
+  grid-area: footer;
+  background-color: #7C9070;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  font-size: 10px;
+}
+
+/* crearlas y revisar si van al principio o final*/
+
+/*# sourceMappingURL=style.css.map */
