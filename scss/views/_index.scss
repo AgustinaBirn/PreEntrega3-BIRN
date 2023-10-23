@@ -1,47 +1,41 @@
 
     .article-index{
-        height: 100%;
+        height: 800px;
         width: 100%;
-        display: grid;
-        grid-template-areas:
-        "bienvenida"
-        "viajes-destacados";
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-center;
+        flex-direction: column;
         .bienvenida{
             grid-area: bienvenida;
             width: 100%;
             height: 400px;
-            display: grid;
-            grid-template-areas:
-            "index-imagen index-imagen-texto";
-            grid-template-rows: 1fr ;
-            grid-template-columns: fr 1fr;
+            @extend %flex-center-evenly;
+            flex-direction: column;
             align-content: center;
-            justify-content: space-evenly;
-            align-items: center;  
-            background-color: rgba(238, 248, 238, 0.637);
             .index-imagen{
-                grid-area: index-imagen;
                 width: 500px;
                 @extend %flex-center;
+                img{
+                    width: 400px;
+                    height: 300px;
+                    border-radius: 15px;
+                }
             }
             .index-imagen-texto{
-                grid-area: index-imagen-texto;
-                width: 500px;
+                width: 450px;
                 height: 200px;
                 background-color: rgba(254, 232, 176, 0.30);
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
+                @extend %flex-center-evenly;
                 flex-direction: column;
                 border-style: solid;
                 border-color: rgba(128, 70, 29, 0.32);
                 border-radius: 10px;
                 .index-imagen-texto-titulo{
+                    height: 35px;
                     @extend %flex-center;
+                    .h1-index{
+                        font-size: 30px;
+                    }
+                    
                 }
                 .index-imagen-texto-parrafo{
                     width: 400px;
@@ -55,33 +49,43 @@
             }
         }
         .viajes-destacados{
-            grid-area: viajes-destacados;
-            height: 200px;
+            height: 330px;
             width: 100%;
-            display: flex;
+            @extend %flex-center-evenly;
             flex-direction: column;
-            justify-content: space-around;
+            background-color: rgba(232, 238, 200, 0.336);
             .titulo-v-destacados{
+                width: 300px;
                 @extend %flex-center;
+                background-color: rgba(224, 170, 119, 0.3);
+                border-color: rgba(224, 170, 119, 0.589);
+                border-radius: 50px;
+                .h2-index{
+                    font-size: 27px;
+                    text-align: center;
+                }
             }
             .botones{
-                display: flex;
-                justify-content: space-evenly;
-                align-items: center;
+                @extend %flex-center-evenly;
                 .boton{
                     width:100px;
                     height:100px;
-                    background-color:#9CA777;
+                    background-color:#9ca7776c;
                     margin: 5px;
                     padding:10px;
                     -webkit-border-radius: 50px;
                     -moz-border-radius: 50px;
                     border-radius: 50px;
+                    border-color: #9ca777af;
                     font-size:11px;
                     line-height:32px;
                     text-transform: uppercase;
                     float:left;
                     @extend %flex-center;
+                    a{
+                        color: rgb(0, 0, 0);
+                        
+                    }
                 }
             }
         }

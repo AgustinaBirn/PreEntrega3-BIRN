@@ -1,60 +1,34 @@
 main{
-    .section-contacto{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        grid-template-areas: 
-        "titulo-contacto"
-        "medios-contacto";
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        .titulo-contacto{
-            height: 100px;
+    .article-contacto{
+        height: 590px;
+        .section-contacto{
             width: 100%;
-            grid-area: titulo-contacto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(224, 170, 119, 0.3);
-            h1{
-                height: 50px;
-                width: 150px;
+            height: 100%;
+            @extend %flex-center;
+            align-content: space-evenly ;
+            .titulo-contacto{
+                height: 60px;
+                width: 100%;
+                @extend %flex-center;
+                background-color: rgba(224, 170, 119, 0.3);
+                .h1-contacto{
+                    width: 200px;
+                    font-size: 30px;
+                    text-align: center;
+                }
             }
-        }
-        .medios-contacto{
-            height: 550px;
-            width: 100%;
-            grid-area: medios-contacto;
-            display: grid;
-            grid-template-areas: 
-            "contacto-personal contacto-redes";
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(138, 84, 15, 0.1);
-            .link-cont-personal{
+            .medios-contacto{
                 height: 400px;
                 width: 100%;
-                grid-area: contacto-personal;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flex-center;
                 flex-direction: column;
-                background-color: rgba(32, 38, 121, 0.1);
-                .titulo-personal{
-                    height: 70px;
-                    width: 200px;
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                    flex-direction: row;
-                    background-color: rgba(224, 170, 119, 0.3);
-                    h2{
-                        font-size: 15px;
+                .link-cont-personal{
+                    height: 400px;
+                    width: 400px;
+                    @extend %flex-center;
+                    flex-direction: column;
+                    background-color: rgba(32, 38, 121, 0.1);
+                    .titulo-personal{
                         height: 70px;
                         width: 200px;
                         display: flex;
@@ -62,42 +36,8 @@ main{
                         align-items: center;
                         flex-direction: row;
                         background-color: rgba(224, 170, 119, 0.3);
-                    }
-                }
-                .link-cont-pers-b{
-                    height: 180px;
-                    width: 250px;
-                    display: flex;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    flex-direction: column;
-                }
-            }
-            .link-redes-sociales{
-                height: 400px;
-                width: 100%;
-                grid-area: contacto-redes;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                flex-direction: column;
-                background-color: rgba(32, 38, 121, 0.1);
-                ul{
-                    height: 400px;
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    list-style: none;
-                    .link-cont-rrss{
-                        height: 400px;
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-evenly;
-                        align-items: center;
-                        flex-direction: column;
-                        .titulo-rrss{
+                        h2{
+                            font-size: 15px;
                             height: 70px;
                             width: 200px;
                             display: flex;
@@ -105,8 +45,33 @@ main{
                             align-items: center;
                             flex-direction: row;
                             background-color: rgba(224, 170, 119, 0.3);
-                            h2{
-                                font-size: 15px;
+                        }
+                    }
+                    .link-cont-pers-b{
+                        height: 180px;
+                        width: 250px;
+                        @extend %flex-center-evenly;
+                        flex-direction: column;
+                    }
+                }
+                .link-redes-sociales{
+                    height: 400px;
+                    width: 400px;
+                    @extend %flex-center;
+                    align-content: center;
+                    flex-direction: column;
+                    background-color: rgba(32, 38, 121, 0.1);
+                    ul{
+                        height: 400px;
+                        width: 100%;
+                        @extend %flex-center;
+                        list-style: none;
+                        .link-cont-rrss{
+                            height: 400px;
+                            width: 100%;
+                            @extend %flex-center-evenly;
+                            flex-direction: column;
+                            .titulo-rrss{
                                 height: 70px;
                                 width: 200px;
                                 display: flex;
@@ -114,14 +79,24 @@ main{
                                 align-items: center;
                                 flex-direction: row;
                                 background-color: rgba(224, 170, 119, 0.3);
+                                h2{
+                                    font-size: 15px;
+                                    height: 70px;
+                                    width: 200px;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    flex-direction: row;
+                                    background-color: rgba(224, 170, 119, 0.3);
+                                }
                             }
                         }
+                        
                     }
-                    
+    
                 }
-
+                
             }
-            
         }
     }
 }
