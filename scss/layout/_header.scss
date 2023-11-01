@@ -1,16 +1,42 @@
 
     header{
         grid-area: header;
-        height: 80px;
-        
+        width: 100%;
+        .navbar{
+            background-color:map-get($colores, header);
+            padding-left: 40px;
+            padding-right: 40px;
+            .navbar-collapse{
+                .btn-buscar{
+                    border-color: #80461d;
+                    color: #80461d;
+                    &:hover{
+                        background-color: #80461d;
+                        color: bisque;
+                        border-color: #421f06;
+                    }
+                }
+                .nav-item{
+                    .nav-link{
+                        color: aliceblue;
+                        &:hover{
+                            color: #80461d;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*header{
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
         display: flex ; 
         flex-wrap: wrap;  
         flex-direction: column;
+        background-color:map-get($colores, header);
         nav{
-            grid-area: nav;
-            background-color:map-get($colores, header);
-            width: 100%;
-            height: 80px;
             display: grid;
             grid-template-areas:
             "area-uno area-dos";
@@ -19,7 +45,6 @@
             justify-content:space-between;
             align-items: flex-end;
             .area-uno{
-            height: 80px;
             grid-area: area-uno;
             justify-content: space-between;
             display: grid;
@@ -33,10 +58,16 @@
                 .logo{
                     width: 160px;
                     height: 80px;
-                    margin: 10px;
                     grid-area: logo;
-                    display: flex;
-                    align-items: center;
+                    @extend %flex-center;
+                    a{
+                        padding: 10px;
+                        @extend %flex-center;
+                        img{
+                            height: 60px;
+                            width: 165px;
+                        }
+                    }
                 }
                 .form-buscador{
                     grid-area: buscador;
@@ -86,4 +117,4 @@
                 }
             }
         }
-    }
+    }*/

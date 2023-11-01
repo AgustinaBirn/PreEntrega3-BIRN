@@ -1,92 +1,161 @@
 
-    .article-index{
-        height: 800px;
-        width: 100%;
-        @extend %flex-center;
-        flex-direction: column;
-        .bienvenida{
-            grid-area: bienvenida;
-            width: 100%;
-            height: 400px;
-            @extend %flex-center-evenly;
-            flex-direction: column;
-            align-content: center;
-            .index-imagen{
-                width: 500px;
+    main{
+        .article{
+            .index__section1{
+                width: 100%;
+                padding-block-end: 50px;
                 @extend %flex-center;
-                img{
-                    width: 400px;
-                    height: 300px;
-                    border-radius: 15px;
-                }
-            }
-            .index-imagen-texto{
-                width: 450px;
-                height: 200px;
-                background-color: rgba(254, 232, 176, 0.30);
-                @extend %flex-center-evenly;
-                flex-direction: column;
-                border-style: solid;
-                border-color: rgba(128, 70, 29, 0.32);
-                border-radius: 10px;
-                .index-imagen-texto-titulo{
-                    height: 35px;
-                    @extend %flex-center;
-                    .h1-index{
-                        font-size: 30px;
+                #myCarousel{
+                    padding: 0px;
+                    width: 100%;
+                    .carousel-inner{
+                        .carousel-item{
+                            .index-imagen-1{
+                                height: 500px;
+                                background-repeat: no-repeat;
+
+                            }
+                            .index-imagen-2{
+                                height: 500px;
+                                background-repeat: no-repeat;
+
+                            }
+                            .index-imagen-3{
+                                height: 500px;
+                                background-repeat: no-repeat;
+
+                            }
+                        }
                     }
-                    
                 }
-                .index-imagen-texto-parrafo{
-                    width: 400px;
-                    height: 100px;
-                    @include flex(flex, column, center, center);
-                    text-align: center;
-                    .index-imagen-texto-parrafo p{
+                
+                
+                /*.bienvenida{
+                    width: 100%;
+                    display: grid;
+                    grid-template-areas: 
+                    "imagen texto";
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr;
+                    align-items: center;
+                    align-content: center;
+                    .index-imagen{
+                        width: 100%;
+                        grid-area: imagen;
                         @extend %flex-center;
+                        img{
+                            width: 400px;
+                            height: 300px;
+                            border-radius: 15px;
+                        }
                     }
-                }
+                    .index-imagen-texto{
+                        width: 100%;
+                        height: 200px;
+                        grid-area: texto;
+                        background-color: rgba(254, 232, 176, 0.30);
+                        @extend %flex-center-evenly;
+                        flex-direction: column;
+                        border-style: solid;
+                        border-color: rgba(128, 70, 29, 0.32);
+                        border-radius: 10px;
+                        .index-imagen-texto-titulo{
+                            height: 35px;
+                            @extend %flex-center;
+                            .h1-index{
+                                font-size: 30px;
+                            }
+                            
+                        }
+                        .index-imagen-texto-parrafo{
+                            width: 400px;
+                            height: 100px;
+                            @include flex(flex, column, center, center);
+                            text-align: center;
+                            .index-imagen-texto-parrafo p{
+                                @extend %flex-center;
+                            }
+                        }
+                    }
+                }*/
             }
-        }
-        .viajes-destacados{
-            height: 330px;
-            width: 100%;
-            @extend %flex-center-evenly;
-            flex-direction: column;
-            background-color: rgba(232, 238, 200, 0.336);
-            .titulo-v-destacados{
-                width: 300px;
+            .index__section2{
+                width: 100%;
+                padding-block-end: 10px;
+                height: 100%;
                 @extend %flex-center;
-                background-color: rgba(224, 170, 119, 0.3);
-                border-color: rgba(224, 170, 119, 0.589);
-                border-radius: 50px;
-                .h2-index{
-                    font-size: 27px;
-                    text-align: center;
-                }
-            }
-            .botones{
-                @extend %flex-center-evenly;
-                .boton{
-                    width:100px;
-                    height:100px;
-                    background-color:#9ca7776c;
-                    margin: 5px;
-                    padding:10px;
-                    -webkit-border-radius: 50px;
-                    -moz-border-radius: 50px;
-                    border-radius: 50px;
-                    border-color: #9ca777af;
-                    font-size:11px;
-                    line-height:32px;
-                    text-transform: uppercase;
-                    float:left;
+                .marketing{
                     @extend %flex-center;
-                    a{
-                        color: rgb(0, 0, 0);
-                        
+                    flex-direction: column;
+                    .index-viajes{
+                        width: 100%;
+                        @extend %flex-center;
+                        .viajes-destacados{
+                            @extend %flex-center;
+                            flex-direction: column;
+                            margin-block-end: 35px;
+                            .h2-index-viajes{
+                                width: 100%;
+                                text-align: center;
+                            }
+                            .p-index-viajes{
+                                text-align: center;
+                            }
+                        }
                     }
                 }
+
+
+
+
+
+                /*.viajes-destacados{
+                    height: 330px;
+                    width: 100%;
+                    @extend %flex-center-evenly;
+                    flex-direction: column;
+                    background-color: rgba(232, 238, 200, 0.336);
+                    .titulo-v-destacados{
+                        width: 300px;
+                        @extend %flex-center;
+                        background-color: rgba(224, 170, 119, 0.3);
+                        border-color: rgba(224, 170, 119, 0.589);
+                        border-radius: 50px;
+                        .h2-index{
+                            font-size: 27px;
+                            text-align: center;
+                        }
+                    }
+                    .botones{
+                        @extend %flex-center-evenly;
+                        width: 100%;
+                        .boton{
+                            width:100px;
+                            height:100px;
+                            background-color:#9ca7776c;
+                            margin: 5px;
+                            padding:10px;
+                            -webkit-border-radius: 50px;
+                            -moz-border-radius: 50px;
+                            border-radius: 50px;
+                            border-color: #9ca777af;
+                            font-size:11px;
+                            line-height:32px;
+                            text-transform: uppercase;
+                            float:left;
+                            @extend %flex-center;
+                            a{
+                                color: rgb(0, 0, 0);
+                                text-decoration: none;
+                                &:hover{
+                                    color: #ffffff;
+                                    text-decoration: underline;
+                                }
+                                
+                            }
+                        }
+                    }
+                }*/
             }
         }
     }

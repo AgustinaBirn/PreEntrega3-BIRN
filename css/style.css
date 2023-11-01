@@ -1,26 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
-footer p, footer, main .article-contacto .section-contacto .medios-contacto .link-redes-sociales ul, main .article-contacto .section-contacto .medios-contacto .link-redes-sociales, main .article-contacto .section-contacto .medios-contacto .link-cont-personal, main .article-contacto .section-contacto .medios-contacto, main .article-contacto .section-contacto .titulo-contacto, main .article-contacto .section-contacto, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3, main .article-sb .section-sob-dos .entrevistas, main .article-sb .section-sob-dos .titulo-ent-sob .h2-entrevistas, main .article-sb .section-sob-dos .titulo-ent-sob, main .article-sb .section-sob-uno .contenido-sob .parrafo-sob .p-2, main .article-sb .section-sob-uno .contenido-sob .parrafo-sob .p-1, main .article-sb .section-sob-uno .contenido-sob .parrafo-sob, main .article-sb .section-sob-uno .contenido-sob .titulo-sob .h1-sb, main .article-sb .section-sob-uno .contenido-sob .titulo-sob, main .article-sb .section-sob-uno .contenido-sob, main .article-sb .section-sob-uno .video-sob, main .article-sb .section-sob-uno, main .article-sb, main .galeria .principal-gal .titulo-gal h1, main .galeria .principal-gal .titulo-gal, main .galeria .principal-gal, main .galeria, .contenido-fotos .album, main .article-pv, .article-index .viajes-destacados .botones .boton, .article-index .viajes-destacados .titulo-v-destacados, .article-index .bienvenida .index-imagen-texto .index-imagen-texto-parrafo .index-imagen-texto-parrafo p, .article-index .bienvenida .index-imagen-texto .index-imagen-texto-titulo, .article-index .bienvenida .index-imagen, .article-index, main, header nav .area-dos, header nav .area-uno .form-buscador, .estilo-entrevistas .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .texto-entrevista, .estilo-entrevistas .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .boton-ent-sob, .estilo-entrevistas, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3, .estilo-itinerarios .boton-pv, main .article-pv .main_article-pv .itinerarios .viajes .boton-pv {
+footer .p-footer, footer, main .article .section-contacto .medios-contacto .link-redes-sociales ul, main .article .section-contacto .medios-contacto .link-redes-sociales, main .article .section-contacto .medios-contacto .link-cont-personal, main .article .section-contacto .titulo-contacto, main .article .section-contacto, main .article .section-sob-dos .entrevistas .entrevista, main .article .section-sob-dos .entrevistas, main .article .section-sob-dos .titulo-ent-sob .h2-entrevistas, main .article .section-sob-dos .titulo-ent-sob, main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob .p-sb-2, main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob .p-sb-1, main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob, main .article .section-sob-uno .presentacion .contenido-sob .titulo-sob .h1-sb, main .article .section-sob-uno .presentacion .contenido-sob .titulo-sob, main .article .section-sob-uno .presentacion .contenido-sob, main .article .section-sob-uno .presentacion .video-sob, main .article .section-sob-uno .presentacion, main .article .section-sob-uno, main .article .principal-gal .parrafo-gal, main .article .principal-gal .titulo-gal h1, main .article .principal-gal .titulo-gal, main .article .principal-gal, main .article .index__section2 .marketing .index-viajes .viajes-destacados, main .article .index__section2 .marketing .index-viajes, main .article .index__section2 .marketing, main .article .index__section2, main .article .index__section1, main, .estilo-entrevistas .texto-entrevista, main .article .section-sob-dos .entrevistas .entrevista .texto-entrevista, .estilo-entrevistas .boton-ent-sob, main .article .section-sob-dos .entrevistas .entrevista .boton-ent-sob, .estilo-entrevistas, main .article .section-sob-dos .entrevistas .entrevista, .estilo-itinerarios .boton-pv, main .article .main_article-pv .itinerarios .viajes .boton-pv {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main .article-contacto .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss, main .article-contacto .section-contacto .medios-contacto .link-cont-personal .link-cont-pers-b, main .article-sb .section-sob-dos, .article-index .viajes-destacados .botones, .article-index .viajes-destacados, .article-index .bienvenida .index-imagen-texto, .article-index .bienvenida {
+main .article .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss, main .article .section-contacto .medios-contacto .link-cont-personal .link-cont-pers-b, main .article .section-sob-dos, .article {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-main .article-pv .main_article-pv .itinerarios .viajes {
-  height: 400px;
-  width: 350px;
 }
 
 .color-fondo {
   background-color: rgba(183, 187, 238, 0.6509803922);
 }
 
-.estilo-itinerarios, main .article-pv .main_article-pv .itinerarios .viajes {
+.estilo-itinerarios, main .article .main_article-pv .itinerarios .viajes {
   width: 100%;
   height: 300px;
   display: flex;
@@ -28,7 +23,7 @@ main .article-pv .main_article-pv .itinerarios .viajes {
   justify-content: space-around;
   align-items: center;
 }
-.estilo-itinerarios .boton-pv, main .article-pv .main_article-pv .itinerarios .viajes .boton-pv {
+.estilo-itinerarios .boton-pv, main .article .main_article-pv .itinerarios .viajes .boton-pv {
   width: 200px;
   height: 200px;
   background-color: rgb(182, 156, 117);
@@ -42,24 +37,28 @@ main .article-pv .main_article-pv .itinerarios .viajes {
   text-transform: uppercase;
   float: left;
 }
-.estilo-itinerarios .boton-pv a, main .article-pv .main_article-pv .itinerarios .viajes .boton-pv a {
+.estilo-itinerarios .boton-pv a, main .article .main_article-pv .itinerarios .viajes .boton-pv a {
   color: aliceblue;
+  text-decoration: none;
 }
-.estilo-itinerarios h2, main .article-pv .main_article-pv .itinerarios .viajes h2 {
+.estilo-itinerarios .boton-pv a:hover, main .article .main_article-pv .itinerarios .viajes .boton-pv a:hover {
+  color: #813b3b;
+  text-decoration: underline;
+}
+.estilo-itinerarios h2, main .article .main_article-pv .itinerarios .viajes h2 {
   color: #80461d;
 }
-.estilo-itinerarios p, main .article-pv .main_article-pv .itinerarios .viajes p {
-  text-align: justify;
+.estilo-itinerarios .p-itinerarios, main .article .main_article-pv .itinerarios .viajes .p-itinerarios {
+  text-align: center;
 }
 
-.estilo-entrevistas, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 {
+.estilo-entrevistas, main .article .section-sob-dos .entrevistas .entrevista {
   height: 200px;
-  width: 100%;
   flex-direction: column;
 }
-.estilo-entrevistas .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .boton-ent-sob, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .boton-ent-sob {
-  width: 100px;
-  height: 100px;
+.estilo-entrevistas .boton-ent-sob, main .article .section-sob-dos .entrevistas .entrevista .boton-ent-sob {
+  width: 150px;
+  height: 150px;
   background-color: rgb(182, 156, 117);
   margin: 5px;
   padding: 10px;
@@ -71,18 +70,29 @@ main .article-pv .main_article-pv .itinerarios .viajes {
   text-transform: uppercase;
   float: left;
 }
-.estilo-entrevistas .boton-ent-sob a, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport .boton-ent-sob a, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae .boton-ent-sob a, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz .boton-ent-sob a, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .boton-ent-sob a, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .boton-ent-sob a {
-  font-size: 10px;
+.estilo-entrevistas .boton-ent-sob a, main .article .section-sob-dos .entrevistas .entrevista .boton-ent-sob a {
+  font-size: 15px;
   color: aliceblue;
+  text-decoration: none;
 }
-.estilo-entrevistas .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .texto-entrevista, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .texto-entrevista {
+.estilo-entrevistas .boton-ent-sob a:hover, main .article .section-sob-dos .entrevistas .entrevista .boton-ent-sob a:hover {
+  color: #813b3b;
+  text-decoration: underline;
+}
+.estilo-entrevistas .texto-entrevista, main .article .section-sob-dos .entrevistas .entrevista .texto-entrevista {
   height: 100px;
-  width: 100%;
+  width: 200px;
   flex-direction: column;
   text-align: center;
 }
-.estilo-entrevistas .texto-entrevista h3, main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport .texto-entrevista h3, main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae .texto-entrevista h3, main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz .texto-entrevista h3, main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce .texto-entrevista h3, main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 .texto-entrevista h3 {
+.estilo-entrevistas .texto-entrevista h3, main .article .section-sob-dos .entrevistas .entrevista .texto-entrevista h3 {
   font-size: 20px;
+}
+
+.article {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
 }
 
 body {
@@ -90,28 +100,28 @@ body {
 }
 
 /*definir conndicional para las quaries o no, porque deberia tener una condicion para que se cumpla*/
-.estilo-itinerarios .boton-pv:nth-child(1), main .article-pv .main_article-pv .itinerarios .viajes .boton-pv:nth-child(1) {
+.estilo-itinerarios .boton-pv:nth-child(1), main .article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(1) {
   background-image: url("../imagenes/1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.estilo-itinerarios .boton-pv:nth-child(2), main .article-pv .main_article-pv .itinerarios .viajes .boton-pv:nth-child(2) {
+.estilo-itinerarios .boton-pv:nth-child(2), main .article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(2) {
   background-image: url("../imagenes/2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.estilo-itinerarios .boton-pv:nth-child(3), main .article-pv .main_article-pv .itinerarios .viajes .boton-pv:nth-child(3) {
+.estilo-itinerarios .boton-pv:nth-child(3), main .article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(3) {
   background-image: url("../imagenes/3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.estilo-itinerarios .boton-pv:nth-child(4), main .article-pv .main_article-pv .itinerarios .viajes .boton-pv:nth-child(4) {
+.estilo-itinerarios .boton-pv:nth-child(4), main .article .main_article-pv .itinerarios .viajes .boton-pv:nth-child(4) {
   background-image: url("../imagenes/4.jpg");
   background-position: center;
   background-size: cover;
@@ -127,11 +137,12 @@ body {
 
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: grid;
-  grid-template-areas: "nav" "header" "main" "footer";
-  grid-template-rows: 1fr;
+  grid-template-areas: "header" "main" "footer";
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
   background-color: none;
   /*background: linear-gradient(to left/45deg, rgba(231, 135, 9, 0.767),rgba(139, 110, 14, 0.918))
   background-image: radial-gradient(red,yellow)*/
@@ -143,172 +154,265 @@ h1 {
 
 header {
   grid-area: header;
-  height: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-header nav {
-  grid-area: nav;
-  background-color: #F97B22;
   width: 100%;
-  height: 80px;
-  display: grid;
-  grid-template-areas: "area-uno area-dos";
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  align-items: flex-end;
 }
-header nav .area-uno {
-  height: 80px;
-  grid-area: area-uno;
-  justify-content: space-between;
-  display: grid;
-  grid-template-areas: "logo buscador";
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr fr;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
+header .navbar {
+  background-color: #F97B22;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-header nav .area-uno .logo {
-  width: 160px;
-  height: 80px;
-  margin: 10px;
-  grid-area: logo;
-  display: flex;
-  align-items: center;
+header .navbar .navbar-collapse .btn-buscar {
+  border-color: #80461d;
+  color: #80461d;
 }
-header nav .area-uno .form-buscador {
-  grid-area: buscador;
-  height: 80px;
+header .navbar .navbar-collapse .btn-buscar:hover {
+  background-color: #80461d;
+  color: bisque;
+  border-color: #421f06;
 }
-header nav .area-uno .form-buscador form {
-  width: 240px;
-}
-header nav .area-uno .form-buscador form .form-buscador-b {
-  width: 240px;
-}
-header nav .area-dos {
-  height: 80px;
-  grid-area: area-dos;
-  justify-items: end;
-}
-header nav .area-dos ul {
-  height: 100%;
-  width: 530px;
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-header nav .area-dos ul .nav-items {
-  width: 500px;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-content: flex-end;
-  align-items: center;
-}
-header nav .area-dos ul .nav-items div li a {
-  height: 100%;
+header .navbar .navbar-collapse .nav-item .nav-link {
   color: aliceblue;
-  text-decoration: none;
 }
-header nav .area-dos ul .nav-items div li a:hover {
+header .navbar .navbar-collapse .nav-item .nav-link:hover {
   color: #80461d;
   text-decoration: underline;
 }
 
+/*header{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex ; 
+    flex-wrap: wrap;  
+    flex-direction: column;
+    background-color:map-get($colores, header);
+    nav{
+        display: grid;
+        grid-template-areas:
+        "area-uno area-dos";
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr;
+        justify-content:space-between;
+        align-items: flex-end;
+        .area-uno{
+        grid-area: area-uno;
+        justify-content: space-between;
+        display: grid;
+        grid-template-areas:
+            "logo buscador";
+            grid-template-rows: 1fr ;
+            grid-template-columns: 1fr fr;
+            justify-content:space-around;
+            align-items: center;
+            align-content: center;
+            .logo{
+                width: 160px;
+                height: 80px;
+                grid-area: logo;
+                @extend %flex-center;
+                a{
+                    padding: 10px;
+                    @extend %flex-center;
+                    img{
+                        height: 60px;
+                        width: 165px;
+                    }
+                }
+            }
+            .form-buscador{
+                grid-area: buscador;
+                height: 80px;
+                @extend %flex-center;
+                form{
+                    width: 240px;
+                    .form-buscador-b{
+                        width: 240px;   
+                    }
+                }
+            }
+        }
+        .area-dos{
+            height: 80px;
+            grid-area: area-dos;
+            @extend %flex-center;
+            justify-items: end;
+
+            ul{
+                height: 100%;
+                width: 530px;
+                display: flex;
+                align-items: center;
+                list-style: none;
+                .nav-items{
+                    width: 500px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-content: flex-end;
+                    align-items: center;
+                    div{
+                        li{
+                            a{
+                                height: 100%;
+                                color: aliceblue;
+                                text-decoration: none;
+                                &:hover{
+                                    color: #80461d;
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}*/
 main {
   grid-area: main;
-  height: 98%;
   width: 100%;
+  flex-wrap: wrap;
 }
 
-.article-index {
-  height: 800px;
+main .article .index__section1 {
   width: 100%;
-  flex-direction: column;
+  padding-block-end: 50px;
+  /*.bienvenida{
+      width: 100%;
+      display: grid;
+      grid-template-areas: 
+      "imagen texto";
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      align-items: center;
+      align-content: center;
+      .index-imagen{
+          width: 100%;
+          grid-area: imagen;
+          @extend %flex-center;
+          img{
+              width: 400px;
+              height: 300px;
+              border-radius: 15px;
+          }
+      }
+      .index-imagen-texto{
+          width: 100%;
+          height: 200px;
+          grid-area: texto;
+          background-color: rgba(254, 232, 176, 0.30);
+          @extend %flex-center-evenly;
+          flex-direction: column;
+          border-style: solid;
+          border-color: rgba(128, 70, 29, 0.32);
+          border-radius: 10px;
+          .index-imagen-texto-titulo{
+              height: 35px;
+              @extend %flex-center;
+              .h1-index{
+                  font-size: 30px;
+              }
+
+          }
+          .index-imagen-texto-parrafo{
+              width: 400px;
+              height: 100px;
+              @include flex(flex, column, center, center);
+              text-align: center;
+              .index-imagen-texto-parrafo p{
+                  @extend %flex-center;
+              }
+          }
+      }
+  }*/
 }
-.article-index .bienvenida {
-  grid-area: bienvenida;
+main .article .index__section1 #myCarousel {
+  padding: 0px;
   width: 100%;
-  height: 400px;
+}
+main .article .index__section1 #myCarousel .carousel-inner .carousel-item .index-imagen-1 {
+  height: 500px;
+  background-repeat: no-repeat;
+}
+main .article .index__section1 #myCarousel .carousel-inner .carousel-item .index-imagen-2 {
+  height: 500px;
+  background-repeat: no-repeat;
+}
+main .article .index__section1 #myCarousel .carousel-inner .carousel-item .index-imagen-3 {
+  height: 500px;
+  background-repeat: no-repeat;
+}
+main .article .index__section2 {
+  width: 100%;
+  padding-block-end: 10px;
+  height: 100%;
+  /*.viajes-destacados{
+      height: 330px;
+      width: 100%;
+      @extend %flex-center-evenly;
+      flex-direction: column;
+      background-color: rgba(232, 238, 200, 0.336);
+      .titulo-v-destacados{
+          width: 300px;
+          @extend %flex-center;
+          background-color: rgba(224, 170, 119, 0.3);
+          border-color: rgba(224, 170, 119, 0.589);
+          border-radius: 50px;
+          .h2-index{
+              font-size: 27px;
+              text-align: center;
+          }
+      }
+      .botones{
+          @extend %flex-center-evenly;
+          width: 100%;
+          .boton{
+              width:100px;
+              height:100px;
+              background-color:#9ca7776c;
+              margin: 5px;
+              padding:10px;
+              -webkit-border-radius: 50px;
+              -moz-border-radius: 50px;
+              border-radius: 50px;
+              border-color: #9ca777af;
+              font-size:11px;
+              line-height:32px;
+              text-transform: uppercase;
+              float:left;
+              @extend %flex-center;
+              a{
+                  color: rgb(0, 0, 0);
+                  text-decoration: none;
+                  &:hover{
+                      color: #ffffff;
+                      text-decoration: underline;
+                  }
+
+              }
+          }
+      }
+  }*/
+}
+main .article .index__section2 .marketing {
   flex-direction: column;
-  align-content: center;
 }
-.article-index .bienvenida .index-imagen {
-  width: 500px;
+main .article .index__section2 .marketing .index-viajes {
+  width: 100%;
 }
-.article-index .bienvenida .index-imagen img {
-  width: 400px;
-  height: 300px;
-  border-radius: 15px;
-}
-.article-index .bienvenida .index-imagen-texto {
-  width: 450px;
-  height: 200px;
-  background-color: rgba(254, 232, 176, 0.3);
+main .article .index__section2 .marketing .index-viajes .viajes-destacados {
   flex-direction: column;
-  border-style: solid;
-  border-color: rgba(128, 70, 29, 0.32);
-  border-radius: 10px;
+  margin-block-end: 35px;
 }
-.article-index .bienvenida .index-imagen-texto .index-imagen-texto-titulo {
-  height: 35px;
-}
-.article-index .bienvenida .index-imagen-texto .index-imagen-texto-titulo .h1-index {
-  font-size: 30px;
-}
-.article-index .bienvenida .index-imagen-texto .index-imagen-texto-parrafo {
-  width: 400px;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+main .article .index__section2 .marketing .index-viajes .viajes-destacados .h2-index-viajes {
+  width: 100%;
   text-align: center;
 }
-.article-index .viajes-destacados {
-  height: 330px;
-  width: 100%;
-  flex-direction: column;
-  background-color: rgba(232, 238, 200, 0.336);
-}
-.article-index .viajes-destacados .titulo-v-destacados {
-  width: 300px;
-  background-color: rgba(224, 170, 119, 0.3);
-  border-color: rgba(224, 170, 119, 0.589);
-  border-radius: 50px;
-}
-.article-index .viajes-destacados .titulo-v-destacados .h2-index {
-  font-size: 27px;
+main .article .index__section2 .marketing .index-viajes .viajes-destacados .p-index-viajes {
   text-align: center;
-}
-.article-index .viajes-destacados .botones .boton {
-  width: 100px;
-  height: 100px;
-  background-color: rgba(156, 167, 119, 0.4235294118);
-  margin: 5px;
-  padding: 10px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  border-color: rgba(156, 167, 119, 0.6862745098);
-  font-size: 11px;
-  line-height: 32px;
-  text-transform: uppercase;
-  float: left;
-}
-.article-index .viajes-destacados .botones .boton a {
-  color: rgb(0, 0, 0);
 }
 
-main .article-pv {
-  width: 800px;
-}
-main .article-pv .main_article-pv {
+main .article .main_article-pv {
   height: 1570px;
   width: 100%;
   display: flex;
@@ -316,7 +420,7 @@ main .article-pv .main_article-pv {
   justify-content: center;
   align-items: center;
 }
-main .article-pv .main_article-pv .titulos {
+main .article .main_article-pv .titulos {
   height: 55px;
   width: 100%;
   display: flex;
@@ -324,12 +428,12 @@ main .article-pv .main_article-pv .titulos {
   align-items: end;
   background-color: rgba(224, 170, 119, 0.3);
 }
-main .article-pv .main_article-pv .titulos h1 {
+main .article .main_article-pv .titulos h1 {
   height: 40px;
   color: #7C9070;
   font-size: 30px;
 }
-main .article-pv .main_article-pv .itinerarios {
+main .article .main_article-pv .itinerarios {
   height: 1400px;
   width: 100%;
   display: flex;
@@ -338,253 +442,236 @@ main .article-pv .main_article-pv .itinerarios {
   align-items: center;
   margin-block-end: 30px;
 }
-main .article-pv .main_article-pv .itinerarios .viajes {
-  grid-area: everest;
+main .article .main_article-pv .itinerarios .viajes {
   height: 400px;
-}
-main .article-pv .main_article-pv .itinerarios .viajes {
-  grid-area: kilimanjaro;
-}
-main .article-pv .main_article-pv .itinerarios .viajes {
-  grid-area: aconcagua;
-}
-main .article-pv .main_article-pv .itinerarios .viajes {
-  grid-area: machu-pichu;
+  padding-right: 8px;
+  padding-left: 8px;
 }
 
-.contenido-fotos {
-  height: 1050px;
-}
-.contenido-fotos .album {
-  height: 200px;
-  width: 200px;
-  background-color: #F97B22;
-  margin: 5px;
-  padding: 10px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-}
-
-main .galeria {
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-}
-main .galeria .principal-gal {
+main .article .principal-gal {
   width: 100%;
   height: 100px;
+  margin-top: 30px;
+  margin-block-end: 30px;
   flex-direction: column;
 }
-main .galeria .principal-gal .titulo-gal {
+main .article .principal-gal .titulo-gal {
   height: 40px;
   width: 100%;
 }
-main .galeria .principal-gal .titulo-gal h1 {
+main .article .principal-gal .titulo-gal h1 {
   height: 40px;
   width: 60px;
   font-size: 20px;
-  color: rgba(23, 37, 117, 0.3);
-}
-main .galeria .principal-fotos {
-  width: 100%;
-  height: 400px;
-}
-main .galeria .principal-fotos .contenido-fotos {
-  height: 400px;
-  width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-main .galeria .principal-fotos .contenido-fotos .titulo-fotos {
-  height: 30px;
-}
-main .galeria .principal-fotos .contenido-fotos .titulo-fotos h2 {
-  font-size: 20px;
   color: #8a540f;
 }
-main .galeria .principal-videos {
-  height: 350px;
+main .article .principal-gal .parrafo-gal .p-gal {
+  text-align: center;
+}
+main .article .principal-fotos {
+  width: 100%;
+  height: 100%;
+}
+main .article .principal-fotos .contenido-fotos {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .article .principal-fotos .contenido-fotos .titulo-fotos {
+  height: 30px;
+}
+main .article .principal-fotos .contenido-fotos .titulo-fotos h2 {
+  font-size: 20px;
+  color: rgba(23, 37, 117, 0.3);
+}
+main .article .principal-fotos .contenido-fotos .albumes {
+  height: 100%;
+  padding-top: 40px;
+  padding-block-end: 50px;
+}
+main .article .principal-fotos .contenido-fotos .albumes .cards {
+  margin-block-end: 40px;
+}
+main .article .principal-fotos .contenido-fotos .albumes .cards .card {
+  height: 320px;
+}
+main .article .principal-fotos .contenido-fotos .albumes .cards .card .card-img-top {
+  height: 200px;
+}
+main .article .principal-videos {
+  height: 100%;
   width: 100%;
 }
-main .galeria .principal-videos .contenido-videos {
-  height: 350px;
+main .article .principal-videos .contenido-videos {
+  height: 100%;
   width: 100%;
-  display: inline-flex;
+  padding: 0px;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
-main .galeria .principal-videos .contenido-videos .titulo-videos {
+main .article .principal-videos .contenido-videos .titulo-videos {
   height: 30px;
 }
-main .galeria .principal-videos .contenido-videos .titulo-videos h2 {
+main .article .principal-videos .contenido-videos .titulo-videos h2 {
   font-size: 20px;
-  color: #8a540f;
+  color: rgba(23, 37, 117, 0.3);
 }
-main .galeria .principal-videos .contenido-videos .videos {
+main .article .principal-videos .contenido-videos .videos {
   grid-area: fotos;
-  height: 250px;
+  height: 100%;
   width: 100%;
+  margin-block-end: 50px;
+  margin-top: 40px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
-main .galeria .principal-videos .contenido-videos .videos .video-uno {
+main .article .principal-videos .contenido-videos .videos .video {
   height: 210px;
   width: 250px;
+  margin-block-end: 35px;
+  padding: 0px;
 }
-main .galeria .principal-videos .contenido-videos .videos .video-uno iframe {
-  height: 210px;
-  width: 250px;
-}
-main .galeria .principal-videos .contenido-videos .videos .video-dos {
-  height: 210px;
-  width: 250px;
-}
-main .galeria .principal-videos .contenido-videos .videos .video-dos iframe {
-  height: 210px;
-  width: 250px;
-}
-main .galeria .principal-videos .contenido-videos .videos .video-tres {
-  height: 210px;
-  width: 250px;
-}
-main .galeria .principal-videos .contenido-videos .videos .video-tres iframe {
+main .article .principal-videos .contenido-videos .videos .video iframe {
   height: 210px;
   width: 250px;
 }
 
-main .article-sb {
+main .article .section-sob-uno {
   height: 100%;
   width: 100%;
-  flex-direction: column;
+  margin-top: 60px;
+  margin-block-end: 80px;
 }
-main .article-sb .section-sob-uno {
-  height: 470px;
+main .article .section-sob-uno .presentacion {
   width: 100%;
-  flex-direction: column;
-}
-main .article-sb .section-sob-uno .video-sob {
   height: 100%;
-  width: 50%;
+  padding: 0px;
 }
-main .article-sb .section-sob-uno .video-sob iframe {
-  height: 270px;
-  width: 450px;
+main .article .section-sob-uno .presentacion .video-sob {
+  height: 100%;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-main .article-sb .section-sob-uno .contenido-sob {
-  height: 370px;
-  width: 50%;
+main .article .section-sob-uno .presentacion .video-sob iframe {
+  height: 350px;
+  width: 600px;
+}
+main .article .section-sob-uno .presentacion .contenido-sob {
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
   flex-direction: column;
   text-align: center;
 }
-main .article-sb .section-sob-uno .contenido-sob .titulo-sob {
-  height: 50px;
-  width: 450px;
+main .article .section-sob-uno .presentacion .contenido-sob .titulo-sob {
+  height: 100%;
+  width: 100%;
+  padding-inline-end: 15px;
+  padding-inline-start: 15px;
 }
-main .article-sb .section-sob-uno .contenido-sob .titulo-sob .h1-sb {
+main .article .section-sob-uno .presentacion .contenido-sob .titulo-sob .h1-sb {
   height: 40px;
   width: 400px;
   font-size: 30px;
-  color: rgba(23, 37, 117, 0.3);
+  color: #8a540f;
   text-align: center;
 }
-main .article-sb .section-sob-uno .contenido-sob .parrafo-sob {
-  height: 300px;
-  width: 490px;
+main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob {
+  height: 100%;
+  width: 100%;
   flex-direction: column;
 }
-main .article-sb .section-sob-uno .contenido-sob .parrafo-sob .p-1 {
-  height: 230px;
-  width: 450px;
-  font-size: 20px;
-  color: rgba(23, 33, 90, 0.8);
-  text-align: center;
-}
-main .article-sb .section-sob-uno .contenido-sob .parrafo-sob .p-2 {
-  height: 70px;
-  width: 450px;
-  font-size: 20px;
-  color: rgba(23, 33, 90, 0.8);
-  text-align: center;
-}
-main .article-sb .section-sob-dos {
-  height: 300px;
+main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob .p-sb-1 {
+  height: 100%;
   width: 100%;
-  flex-direction: row;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  margin-block-end: 15px;
+  color: rgba(23, 33, 90, 0.8);
+  text-align: center;
+}
+main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob .p-sb-2 {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-block-end: 30px;
+  font-size: 20px;
+  color: rgba(23, 33, 90, 0.8);
+  text-align: center;
+}
+main .article .section-sob-dos {
+  height: 100%;
+  width: 100%;
+  margin-block-end: 40px;
+  flex-direction: column;
   background-color: rgba(53, 79, 153, 0.1);
 }
-main .article-sb .section-sob-dos .titulo-ent-sob {
+main .article .section-sob-dos .titulo-ent-sob {
   height: 100px;
   width: 100%;
 }
-main .article-sb .section-sob-dos .titulo-ent-sob .h2-entrevistas {
+main .article .section-sob-dos .titulo-ent-sob .h2-entrevistas {
   height: 100px;
   width: 100%;
   font-size: 25px;
 }
-main .article-sb .section-sob-dos .entrevistas {
-  height: 100% px;
+main .article .section-sob-dos .entrevistas {
+  height: 100%;
   width: 100%;
   flex-direction: row;
 }
-main .article-sb .section-sob-dos .entrevistas .entrevistas__cadena3 {
+main .article .section-sob-dos .entrevistas .entrevista {
   height: 100%;
-  width: 100%;
-}
-main .article-sb .section-sob-dos .entrevistas .entrevistas__canal-doce {
-  height: 100%;
-  width: 100%;
-}
-main .article-sb .section-sob-dos .entrevistas .entrevistas__la-voz {
-  height: 100%;
-  width: 100%;
-}
-main .article-sb .section-sob-dos .entrevistas .entrevistas__infobae {
-  height: 100%;
-  width: 100%;
-}
-main .article-sb .section-sob-dos .entrevistas .entrevistas__showsport {
-  height: 100%;
-  width: 100%;
+  margin-block-end: 20px;
 }
 
-main .article-contacto {
-  height: 590px;
-}
-main .article-contacto .section-contacto {
+main .article .section-contacto {
   width: 100%;
   height: 100%;
   align-content: space-evenly;
 }
-main .article-contacto .section-contacto .titulo-contacto {
+main .article .section-contacto .titulo-contacto {
   height: 60px;
   width: 100%;
+  margin-top: 30px;
+  margin-block-end: 45px;
   background-color: rgba(224, 170, 119, 0.3);
 }
-main .article-contacto .section-contacto .titulo-contacto .h1-contacto {
+main .article .section-contacto .titulo-contacto .h1-contacto {
   width: 200px;
   font-size: 30px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
 }
-main .article-contacto .section-contacto .medios-contacto {
-  height: 400px;
+main .article .section-contacto .medios-contacto {
+  height: 100%;
   width: 100%;
-  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-main .article-contacto .section-contacto .medios-contacto .link-cont-personal {
+main .article .section-contacto .medios-contacto .link-cont-personal {
   height: 400px;
   width: 400px;
+  margin-block-end: 45px;
   flex-direction: column;
   background-color: rgba(32, 38, 121, 0.1);
 }
-main .article-contacto .section-contacto .medios-contacto .link-cont-personal .titulo-personal {
+main .article .section-contacto .medios-contacto .link-cont-personal .titulo-personal {
   height: 70px;
   width: 200px;
   display: flex;
@@ -593,7 +680,7 @@ main .article-contacto .section-contacto .medios-contacto .link-cont-personal .t
   flex-direction: row;
   background-color: rgba(224, 170, 119, 0.3);
 }
-main .article-contacto .section-contacto .medios-contacto .link-cont-personal .titulo-personal h2 {
+main .article .section-contacto .medios-contacto .link-cont-personal .titulo-personal h2 {
   font-size: 15px;
   height: 70px;
   width: 200px;
@@ -603,29 +690,31 @@ main .article-contacto .section-contacto .medios-contacto .link-cont-personal .t
   flex-direction: row;
   background-color: rgba(224, 170, 119, 0.3);
 }
-main .article-contacto .section-contacto .medios-contacto .link-cont-personal .link-cont-pers-b {
+main .article .section-contacto .medios-contacto .link-cont-personal .link-cont-pers-b {
   height: 180px;
   width: 250px;
   flex-direction: column;
 }
-main .article-contacto .section-contacto .medios-contacto .link-redes-sociales {
+main .article .section-contacto .medios-contacto .link-redes-sociales {
   height: 400px;
   width: 400px;
+  margin-block-end: 45px;
   align-content: center;
   flex-direction: column;
   background-color: rgba(32, 38, 121, 0.1);
 }
-main .article-contacto .section-contacto .medios-contacto .link-redes-sociales ul {
+main .article .section-contacto .medios-contacto .link-redes-sociales ul {
   height: 400px;
   width: 100%;
+  padding: 0px;
   list-style: none;
 }
-main .article-contacto .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss {
+main .article .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss {
   height: 400px;
   width: 100%;
   flex-direction: column;
 }
-main .article-contacto .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss .titulo-rrss {
+main .article .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss .titulo-rrss {
   height: 70px;
   width: 200px;
   display: flex;
@@ -634,7 +723,7 @@ main .article-contacto .section-contacto .medios-contacto .link-redes-sociales u
   flex-direction: row;
   background-color: rgba(224, 170, 119, 0.3);
 }
-main .article-contacto .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss .titulo-rrss h2 {
+main .article .section-contacto .medios-contacto .link-redes-sociales ul .link-cont-rrss .titulo-rrss h2 {
   font-size: 15px;
   height: 70px;
   width: 200px;
@@ -646,15 +735,17 @@ main .article-contacto .section-contacto .medios-contacto .link-redes-sociales u
 }
 
 footer {
-  height: 35px;
   grid-area: footer;
+  height: 40px;
+  width: 100%;
   background-color: #7C9070;
   color: aliceblue;
   align-content: center;
 }
-footer p {
+footer .p-footer {
   height: 15px;
-  font-size: 10px;
+  font-size: 12px;
+  margin: 0px;
   align-content: center;
 }
 

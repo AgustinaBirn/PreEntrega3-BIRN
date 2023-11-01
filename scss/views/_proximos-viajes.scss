@@ -1,7 +1,5 @@
 main{
-   .article-pv{
-    width: 800px;
-    @extend %flex-center;
+   .article{
         .main_article-pv{
            height: 1570px;
            width: 100%;
@@ -25,25 +23,12 @@ main{
                @include flex(flex, column, space-around, center);
                margin-block-end: 30px;
                .viajes{
-               grid-area: everest;
                height: 400px;
+               padding-right: 8px;
+               padding-left: 8px;
                @extend .estilo-itinerarios;
                }
-               .viajes{
-               grid-area: kilimanjaro;    
-               @extend %viajes;
-               @extend .estilo-itinerarios;
-               }
-               .viajes{
-               grid-area: aconcagua;    
-               @extend %viajes;
-               @extend .estilo-itinerarios;
-               }
-               .viajes{
-               grid-area: machu-pichu;  
-               @extend %viajes;
-               @extend .estilo-itinerarios;
-               }
+               
            }
        }
    }

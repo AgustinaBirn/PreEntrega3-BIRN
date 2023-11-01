@@ -1,6 +1,5 @@
 main{
-    .article-contacto{
-        height: 590px;
+    .article{
         .section-contacto{
             width: 100%;
             height: 100%;
@@ -9,22 +8,29 @@ main{
             .titulo-contacto{
                 height: 60px;
                 width: 100%;
+                margin-top: 30px;
+                margin-block-end: 45px;
                 @extend %flex-center;
                 background-color: rgba(224, 170, 119, 0.3);
                 .h1-contacto{
                     width: 200px;
                     font-size: 30px;
+                    padding: 0px;
+                    margin: 0px;
                     text-align: center;
                 }
             }
             .medios-contacto{
-                height: 400px;
+                height: 100%;
                 width: 100%;
-                @extend %flex-center;
-                flex-direction: column;
+                display: flex;
+                justify-content: space-around;
+                align-items: center
+                ;
                 .link-cont-personal{
                     height: 400px;
                     width: 400px;
+                    margin-block-end: 45px;
                     @extend %flex-center;
                     flex-direction: column;
                     background-color: rgba(32, 38, 121, 0.1);
@@ -57,6 +63,7 @@ main{
                 .link-redes-sociales{
                     height: 400px;
                     width: 400px;
+                    margin-block-end: 45px;
                     @extend %flex-center;
                     align-content: center;
                     flex-direction: column;
@@ -64,6 +71,7 @@ main{
                     ul{
                         height: 400px;
                         width: 100%;
+                        padding: 0px;
                         @extend %flex-center;
                         list-style: none;
                         .link-cont-rrss{

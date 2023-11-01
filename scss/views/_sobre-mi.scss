@@ -1,71 +1,88 @@
 main{
-    .article-sb{
-        height: 100%;
-        width: 100%;
-        @extend %flex-center;
-        flex-direction: column;
+    .article{
         .section-sob-uno{
-            height: 470px;
+            height: 100%;
             width: 100%;
+            margin-top: 60px;
+            margin-block-end: 80px;
             @extend %flex-center;
-            flex-direction: column;
-            .video-sob{
+            .presentacion{
+                width: 100%;
                 height: 100%;
-                width: 50%;
+                padding: 0px;
                 @extend %flex-center;
-                iframe{
-                    height: 270px;
-                    width: 450px;
-                }
-            }
-            .contenido-sob{
-                height: 370px;
-                width: 50%;
-                @extend %flex-center;
-                flex-direction: column;
-                text-align: center;
-                .titulo-sob{
-                    height: 50px;
-                    width: 450px;
+                .video-sob{
+                    height: 100%;
+                    padding: 0px;
+                    padding-left: 20px;
+                    padding-right: 20px;
                     @extend %flex-center;
-                    .h1-sb{
-                        height: 40px;
-                        width: 400px;
-                        font-size: 30px;
-                        color: rgba(23, 37, 117, 0.3);
-                        @extend %flex-center;
-                        text-align: center;
+                    iframe{
+                        height: 350px;
+                        width: 600px;
                     }
                 }
-                .parrafo-sob{
-                    height: 300px;
-                    width: 490px;
+                .contenido-sob{
+                    height: 100%;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    margin-top: 30px;
                     @extend %flex-center;
                     flex-direction: column;
-                    .p-1{
-                        height: 230px;
-                        width: 450px;
-                        font-size: 20px;
-                        color: rgba(23, 33, 90, 0.8);
+                    text-align: center;
+                    .titulo-sob{
+                        height: 100%;
+                        width: 100%;
+                        padding-inline-end: 15px;
+                        padding-inline-start: 15px;
                         @extend %flex-center;
-                        text-align: center;
+                        .h1-sb{
+                            height: 40px;
+                            width: 400px;
+                            font-size: 30px;
+                            color: #8a540f;
+                            @extend %flex-center;
+                            text-align: center;
+                        }
                     }
-                    .p-2{
-                        height: 70px;
-                        width: 450px;
-                        font-size: 20px;
-                        color: rgba(23, 33, 90, 0.8);
+                    .parrafo-sob{
+                        height: 100%;
+                        width: 100%;
                         @extend %flex-center;
-                        text-align: center;
+                        flex-direction: column;
+                        .p-sb-1{
+                            height: 100%;
+                            width: 100%;
+                            font-size: 20px;
+                            padding: 0px;
+                            margin: 0px;
+                            margin-top: 20px;
+                            margin-block-end: 15px;
+                            color: rgba(23, 33, 90, 0.8);
+                            @extend %flex-center;
+                            text-align: center;
+                        }
+                        .p-sb-2{
+                            height: 100%;
+                            width: 100%;
+                            padding: 0px;
+                            margin: 0px;
+                            margin-block-end: 30px;
+                            font-size: 20px;
+                            color: rgba(23, 33, 90, 0.8);
+                            @extend %flex-center;
+                            text-align: center;
+                        }
                     }
                 }
             }
         }
         .section-sob-dos{
-            height: 300px;
+            height: 100%;
             width: 100%;
+            margin-block-end: 40px;
             @extend %flex-center-evenly;
-            flex-direction: row;
+            flex-direction: column;
             background-color: rgba(53, 79, 153, 0.1);
             .titulo-ent-sob{
                 height: 100px;
@@ -79,37 +96,13 @@ main{
                 }
             }
             .entrevistas{
-                height: 100%px;
+                height: 100%;
                 width: 100%;
                 @extend %flex-center;
                 flex-direction: row;
-                .entrevistas__cadena3{
+                .entrevista{
                     height: 100%;
-                    width: 100%;
-                    @extend %flex-center;
-                    @extend .estilo-entrevistas;
-                }
-                .entrevistas__canal-doce{
-                    height: 100%;
-                    width: 100%;
-                    @extend %flex-center;
-                    @extend .estilo-entrevistas;
-                }
-                .entrevistas__la-voz{
-                    height: 100%;
-                    width: 100%;
-                    @extend %flex-center;
-                    @extend .estilo-entrevistas;
-                }
-                .entrevistas__infobae{
-                    height: 100%;
-                    width: 100%;
-                    @extend %flex-center;
-                    @extend .estilo-entrevistas;
-                }
-                .entrevistas__showsport{
-                    height: 100%;
-                    width: 100%;
+                    margin-block-end: 20px;
                     @extend %flex-center;
                     @extend .estilo-entrevistas;
                 }

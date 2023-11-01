@@ -39,23 +39,27 @@
         @extend %flex-center;
         a{
             color: aliceblue;
+            text-decoration: none;
+            &:hover{
+                color: #813b3b;
+                text-decoration: underline;
+            }
         }
     }
     h2{
         color:#80461d;
     }
-    p{
-        text-align:justify ;
+    .p-itinerarios{
+        text-align:center ;
     }
 } 
 .estilo-entrevistas{
     height: 200px;
-    width: 100%;
     @extend %flex-center;
     flex-direction: column;
     .boton-ent-sob{
-        width:100px;
-        height:100px;
+        width:150px;
+        height:150px;
         background-color:rgb(182, 156, 117);
         margin: 5px;
         padding:10px;
@@ -68,13 +72,18 @@
         float:left;
         @extend %flex-center;
         a{
-            font-size: 10px;
+            font-size: 15px;
             color: aliceblue;
+            text-decoration: none;
+            &:hover{
+                color: #813b3b;
+                text-decoration: underline;
+            }
         }
       }
       .texto-entrevista{
-        height: 100px;
-        width: 100%;
+        height: 100px; 
+        width: 200px;
         @extend %flex-center;
         flex-direction: column;
         text-align: center;
@@ -83,3 +92,10 @@
         }
       }
   }
+
+.article{
+    height: 100%;
+    width: 100%;
+    @extend %flex-center-evenly;
+    flex-direction: column;
+}
