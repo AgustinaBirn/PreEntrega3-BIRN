@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 footer .p-footer, footer, main .article .section-contacto .medios-contacto .link-redes-sociales ul, main .article .section-contacto .medios-contacto .link-redes-sociales, main .article .section-contacto .medios-contacto .link-cont-personal, main .article .section-contacto .titulo-contacto, main .article .section-contacto, main .article .section-sob-dos .entrevistas .entrevista, main .article .section-sob-dos .entrevistas, main .article .section-sob-dos .titulo-ent-sob .h2-entrevistas, main .article .section-sob-dos .titulo-ent-sob, main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob .p-sb-2, main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob .p-sb-1, main .article .section-sob-uno .presentacion .contenido-sob .parrafo-sob, main .article .section-sob-uno .presentacion .contenido-sob .titulo-sob .h1-sb, main .article .section-sob-uno .presentacion .contenido-sob .titulo-sob, main .article .section-sob-uno .presentacion .contenido-sob, main .article .section-sob-uno .presentacion .video-sob, main .article .section-sob-uno .presentacion, main .article .section-sob-uno, main .article .principal-gal .parrafo-gal, main .article .principal-gal .titulo-gal h1, main .article .principal-gal .titulo-gal, main .article .principal-gal, main .article .index__section2 .marketing .index-viajes .viajes-destacados, main .article .index__section2 .marketing .index-viajes, main .article .index__section2 .marketing, main .article .index__section2, main .article .index__section1, main, .estilo-entrevistas .texto-entrevista, main .article .section-sob-dos .entrevistas .entrevista .texto-entrevista, .estilo-entrevistas .boton-ent-sob, main .article .section-sob-dos .entrevistas .entrevista .boton-ent-sob, .estilo-entrevistas, main .article .section-sob-dos .entrevistas .entrevista, .estilo-itinerarios .boton-pv, main .article .main_article-pv .itinerarios .viajes .boton-pv {
   display: flex;
@@ -95,6 +96,14 @@ main .article .section-contacto .medios-contacto .link-redes-sociales ul .link-c
   flex-direction: column;
 }
 
+@media (max-width: 480px) {
+  /* cambio tamaño video | SOBRE MI */
+  /*.video-sob{
+
+      height: 250px;
+      width: 400px;
+  }*/
+}
 body {
   background-color: rgba(243, 225, 166, 0.5058823529);
 }
@@ -561,7 +570,7 @@ main .article .section-sob-uno .presentacion .video-sob {
   padding-left: 20px;
   padding-right: 20px;
 }
-main .article .section-sob-uno .presentacion .video-sob iframe {
+main .article .section-sob-uno .presentacion .video-sob .video {
   height: 350px;
   width: 600px;
 }
@@ -748,7 +757,5 @@ footer .p-footer {
   margin: 0px;
   align-content: center;
 }
-
-/* crearlas y revisar si van al principio o final*/
 
 /*# sourceMappingURL=style.css.map */
